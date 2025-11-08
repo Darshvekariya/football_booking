@@ -1,0 +1,18 @@
+{
+  "name": "dynamic-turf-api",
+  "version": "1.0.0",
+  "description": "API for Dynamic Turf booking system",
+  "main": "api/api.js",
+  "scripts": {
+    "start": "node api/api.js",
+    "dev": "nodemon api/api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
